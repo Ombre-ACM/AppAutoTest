@@ -1,0 +1,7 @@
+desired_caps:
+  platformName: Android
+  platformVersion: 8.1.0
+  deviceName: b1c9cae3
+  appPackage: com.ganji.android.haoche_c
+  appActivity: com.ganji.android.haoche_c.ui.main.MainActivity
+  noRest: True

@@ -1,0 +1,102 @@
+2022-05-23 17:10:01,724 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/btn_confirm')
+2022-05-23 17:10:02,370 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/close')
+2022-05-23 17:10:08,164 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/tv_cancel')
+2022-05-23 17:10:08,836 basepage.py INFO click 正在点击('xpath', '//*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.view.View[1]')
+2022-05-23 17:10:14,319 basepage.py INFO tap 正在点击坐标(450, 280)
+2022-05-23 17:10:16,884 basepage.py INFO input 正在输入内容不存在的车，输入框为('id', 'com.ganji.android.haoche_c:id/edit_text')
+2022-05-23 17:10:19,224 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/search_text')
+2022-05-23 17:10:20,193 basepage.py INFO sleep 正在强制等待 2秒
+2022-05-23 17:10:22,197 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/tips_close')
+2022-05-23 17:10:23,103 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/radio_home')
+2022-05-23 17:10:26,097 basepage.py INFO tap 正在点击坐标(450, 280)
+2022-05-23 17:10:28,604 basepage.py INFO input 正在输入内容丰田，输入框为('id', 'com.ganji.android.haoche_c:id/edit_text')
+2022-05-23 17:10:31,013 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/search_text')
+2022-05-23 17:10:32,216 basepage.py INFO sleep 正在强制等待 2秒
+2022-05-23 17:10:34,218 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/radio_home')
+2022-05-23 17:10:35,787 basepage.py INFO tap 正在点击坐标(450, 280)
+2022-05-23 17:10:38,280 basepage.py INFO input 正在输入内容福特，输入框为('id', 'com.ganji.android.haoche_c:id/edit_text')
+2022-05-23 17:10:40,456 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/search_text')
+2022-05-23 17:10:41,317 basepage.py INFO sleep 正在强制等待 2秒
+2022-05-23 17:10:43,330 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/radio_home')
+2022-05-23 17:10:44,502 basepage.py INFO click 正在点击('-android uiautomator', 'new UiSelector().text("未知")')
+2022-05-23 17:10:47,545 basepage.py INFO click 正在点击('-android uiautomator', 'new UiSelector().text("北京")')
+2022-05-23 17:10:47,686 basepage.py INFO sleep 正在强制等待 2秒
+2022-05-23 17:10:49,695 basepage.py INFO click 正在点击('-android uiautomator', 'new UiSelector().text("北京")')
+2022-05-23 17:10:50,267 basepage.py INFO click 正在点击('-android uiautomator', 'new UiSelector().text("广州")')
+2022-05-23 17:10:51,613 basepage.py INFO sleep 正在强制等待 2秒
+2022-05-23 17:10:53,616 basepage.py INFO click 正在点击('-android uiautomator', 'new UiSelector().text("广州")')
+2022-05-23 17:10:54,843 basepage.py INFO click 正在点击('-android uiautomator', 'new UiSelector().text("成都")')
+2022-05-23 17:10:56,261 basepage.py INFO sleep 正在强制等待 2秒
+2022-05-23 17:10:58,265 basepage.py INFO click 正在点击('-android uiautomator', 'new UiSelector().text("宝马")')
+2022-05-23 17:11:03,078 basepage.py INFO sleep 正在强制等待 1秒
+2022-05-23 17:11:04,086 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/radio_home')
+2022-05-23 17:11:05,867 basepage.py INFO click 正在点击('-android uiautomator', 'new UiSelector().text("奔驰")')
+2022-05-23 17:11:09,143 basepage.py INFO sleep 正在强制等待 1秒
+2022-05-23 17:11:10,153 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/radio_home')
+2022-05-23 17:11:12,214 basepage.py INFO click 正在点击('-android uiautomator', 'new UiSelector().text("路虎")')
+2022-05-23 17:11:28,204 basepage.py ERROR click 点击失败Message: An element could not be located on the page using the given search parameters.
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2022-05-23 17:11:28,204 basepage.py INFO sleep 正在强制等待 1秒
+2022-05-23 17:11:29,206 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/radio_home')
+2022-05-23 17:11:30,525 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/radio_buy')
+2022-05-23 17:11:32,558 basepage.py INFO sleep 正在强制等待 1秒
+2022-05-23 17:11:33,563 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/reset_btn')
+2022-05-23 17:11:35,308 basepage.py INFO sleep 正在强制等待 1秒
+2022-05-23 17:11:36,311 basepage.py INFO click 正在点击('-android uiautomator', 'new UiSelector().text("品牌")')
+2022-05-23 17:11:39,517 basepage.py INFO sleep 正在强制等待 1秒
+2022-05-23 17:11:40,526 basepage.py INFO click 正在点击('-android uiautomator', 'new UiSelector().text("奥迪")')
+2022-05-23 17:11:41,297 basepage.py INFO sleep 正在强制等待 1秒
+2022-05-23 17:11:42,298 basepage.py INFO tap 正在点击坐标(750, 600)
+2022-05-23 17:11:44,791 basepage.py INFO sleep 正在强制等待 1秒
+2022-05-23 17:11:45,799 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/ftv_license_roadHaul')
+2022-05-23 17:11:47,603 basepage.py INFO sleep 正在强制等待 1秒
+2022-05-23 17:11:48,610 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/layout_license_roadHaul_submit')
+2022-05-23 17:11:49,213 basepage.py INFO sleep 正在强制等待 1秒
+2022-05-23 17:11:50,224 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/radio_home')
+2022-05-23 17:11:50,830 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/radio_sell')
+2022-05-23 17:11:51,646 basepage.py INFO sleep 正在强制等待 1秒
+2022-05-23 17:11:52,664 basepage.py INFO click 正在点击('-android uiautomator', 'new UiSelector().text("请选择品牌车系")')
+2022-05-23 17:11:53,209 basepage.py INFO sleep 正在强制等待 1秒
+2022-05-23 17:11:54,215 basepage.py INFO tap 正在点击坐标(115, 635)
+2022-05-23 17:11:56,695 basepage.py INFO sleep 正在强制等待 1秒
+2022-05-23 17:11:57,705 basepage.py INFO tap 正在点击坐标(350, 525)
+2022-05-23 17:12:00,169 basepage.py INFO sleep 正在强制等待 1秒
+2022-05-23 17:12:01,170 basepage.py INFO tap 正在点击坐标(445, 500)
+2022-05-23 17:12:03,646 basepage.py INFO sleep 正在强制等待 1秒
+2022-05-23 17:12:04,651 basepage.py INFO tap 正在点击坐标(500, 625)
+2022-05-23 17:12:07,134 basepage.py INFO sleep 正在强制等待 1秒
+2022-05-23 17:12:08,135 basepage.py INFO tap 正在点击坐标(700, 1700)
+2022-05-23 17:12:10,639 basepage.py INFO sleep 正在强制等待 1秒
+2022-05-23 17:12:11,648 basepage.py INFO tap 正在点击坐标(560, 1760)
+2022-05-23 17:12:14,120 basepage.py INFO sleep 正在强制等待 1秒
+2022-05-23 17:12:15,129 basepage.py INFO tap 正在点击坐标(425, 1200)
+2022-05-23 17:12:17,610 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/close')
+2022-05-23 17:12:19,253 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/tv_cancel')
+2022-05-23 17:12:20,055 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/radio_home')
+2022-05-23 17:12:21,771 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/radio_buy')
+2022-05-23 17:12:23,102 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/pic_rl')
+2022-05-23 17:12:23,880 basepage.py INFO sleep 正在强制等待 2秒
+2022-05-23 17:12:25,888 basepage.py INFO swipe 正在从屏幕坐标比例(0.8, 0.9)滑屏到(0.8, 0.2)
+2022-05-23 17:12:27,059 basepage.py INFO swipe 正在从屏幕坐标比例(0.8, 0.9)滑屏到(0.8, 0.2)
+2022-05-23 17:12:28,163 basepage.py INFO swipe 正在从屏幕坐标比例(0.8, 0.9)滑屏到(0.8, 0.2)
+2022-05-23 17:12:29,377 basepage.py INFO swipe 正在从屏幕坐标比例(0.8, 0.9)滑屏到(0.8, 0.2)
+2022-05-23 17:12:30,490 basepage.py INFO swipe 正在从屏幕坐标比例(0.8, 0.9)滑屏到(0.8, 0.2)
+2022-05-23 17:12:31,599 basepage.py INFO swipe 正在从屏幕坐标比例(0.8, 0.9)滑屏到(0.8, 0.2)
+2022-05-23 17:12:32,694 basepage.py INFO swipe 正在从屏幕坐标比例(0.8, 0.9)滑屏到(0.8, 0.2)
+2022-05-23 17:12:33,788 basepage.py INFO swipe 正在从屏幕坐标比例(0.8, 0.9)滑屏到(0.8, 0.2)
+2022-05-23 17:12:34,893 basepage.py INFO swipe 正在从屏幕坐标比例(0.8, 0.9)滑屏到(0.8, 0.2)
+2022-05-23 17:12:36,013 basepage.py INFO swipe 正在从屏幕坐标比例(0.8, 0.9)滑屏到(0.8, 0.2)
+2022-05-23 17:12:37,148 basepage.py INFO swipe 正在从屏幕坐标比例(0.8, 0.9)滑屏到(0.8, 0.2)
+2022-05-23 17:12:38,254 basepage.py INFO swipe 正在从屏幕坐标比例(0.8, 0.9)滑屏到(0.8, 0.2)
+2022-05-23 17:12:39,348 basepage.py INFO swipe 正在从屏幕坐标比例(0.8, 0.9)滑屏到(0.8, 0.2)
+2022-05-23 17:12:40,455 basepage.py INFO swipe 正在从屏幕坐标比例(0.8, 0.9)滑屏到(0.8, 0.2)
+2022-05-23 17:12:41,679 basepage.py INFO swipe 正在从屏幕坐标比例(0.8, 0.9)滑屏到(0.8, 0.2)
+2022-05-23 17:12:42,789 basepage.py INFO click 正在点击('-android uiautomator', 'new UiSelector().text("立即订购")')
+2022-05-23 17:12:44,524 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/close')
+2022-05-23 17:12:45,944 basepage.py INFO click 正在点击('id', 'com.ganji.android.haoche_c:id/tv_cancel')
