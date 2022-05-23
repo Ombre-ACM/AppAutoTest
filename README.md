@@ -1,6 +1,7 @@
 # AppAutoTest
 一个基于appium的APP POM自动化测试
 目录从上到下依次为 基类，公共类，配置，页面，结果，测试用例管理， 测试数据， 实现了 老东家瓜子二手车 App 部分功能测试，在unittest运行框架测试并输出html报告， 其中log数据可实时输出控制台也可写入result文件夹下log文件中保存
+页面共分为 初始主页面，搜索页面，选择城市页面， 品牌页面， 买车页面， 卖车页面， 以及具体车辆信息页面
 其中安卓平台配置如下
 
 ![image](https://user-images.githubusercontent.com/64000814/169788281-335ee3b2-745b-476b-bbbb-d5f00d2926d7.png)
